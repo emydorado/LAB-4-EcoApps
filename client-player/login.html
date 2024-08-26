@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Login</title>
+		<link rel="stylesheet" href="register_login.css" />
+	</head>
+	<body>
+		<div class="todo">
+			<h1>LOGIN</h1>
+
+			<form id="login-form">
+				<input type="text" placeholder="Username" id="username_input" required />
+				<input type="password" placeholder="Password" id="password_input" autocomplete required />
+				<button type="submit" id="login_button">Log In</button>
+			</form>
+
+			<div id="login-message"></div>
+
+			<div class="register">
+				<p>Don't have an account?</p>
+				<a href="register.html">Register</a>
+			</div>
+		</div>
+
+		<script src="login.js"></script>
+	</body>
+</html>

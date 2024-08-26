@@ -1,0 +1,83 @@
+body {
+	font-family: Arial, sans-serif;
+	background-color: #fee8f3;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+h1 {
+	color: #cd557d;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.todo {
+	background-color: #fff;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	padding: 20px;
+	width: 350px;
+}
+
+input[type='email'],
+input[type='text'],
+input[type='password'] {
+	width: 100%;
+	padding: 10px;
+	margin: 10px 0;
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	box-sizing: border-box;
+}
+
+button {
+	background-color: #cd557d;
+	color: #fff;
+	border: none;
+	padding: 15px;
+	width: 100%;
+	border-radius: 10px;
+	cursor: pointer;
+	font-size: 16px;
+	transition: background-color 0.3s;
+}
+
+button:hover {
+	background-color: #cc6487;
+}
+
+#data-container {
+	margin-top: 20px;
+	text-align: center;
+}
+
+a {
+	color: #cd557d;
+	text-decoration: none;
+	font-weight: bold;
+	margin: 5px;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.login,
+.register {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#login-message {
+	text-decoration: none;
+	font-weight: bold;
+	margin: 5px;
+	display: flex;
+	justify-content: center;
+	padding-top: 15px;
+}
